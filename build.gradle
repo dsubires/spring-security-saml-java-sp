@@ -70,9 +70,9 @@ gretty {
     httpsEnabled = true
     httpsPort = 9443
     httpPort = 8081
-    sslKeyStorePath = 'c:\\etc\\cas\\jetty\\thekeystore'
+/*  sslKeyStorePath = 'c:\\etc\\cas\\jetty\\thekeystore'
     sslKeyStorePassword = 'changeit'
     sslTrustStorePath = 'c:\\etc\\cas\\jetty\\thekeystore'
-    sslKeyStorePassword = 'changeit'
+    sslKeyStorePassword = 'changeit' */
 }
 

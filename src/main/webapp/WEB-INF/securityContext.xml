@@ -83,7 +83,7 @@
         <!-- Register authentication manager for administration UI -->
         <security:authentication-provider>
             <security:user-service id="adminInterfaceService">
-                <security:user name="admin" password="admin" authorities="ROLE_ADMIN"/>
+                <security:user name="admin" password="admin000" authorities="ROLE_ADMIN"/>
             </security:user-service>
         </security:authentication-provider>
     </security:authentication-manager>
@@ -139,7 +139,7 @@
             <bean class="org.springframework.security.saml.metadata.MetadataGenerator">
                 <property name="extendedMetadata">
                     <bean class="org.springframework.security.saml.metadata.ExtendedMetadata">
-                        <property name="idpDiscoveryEnabled" value="true"/>
+                        <property name="idpDiscoveryEnabled" value="false"/>
                     </bean>
                 </property>
             </bean>
@@ -206,7 +206,7 @@
                             <property name="requireArtifactResolveSigned" value="true"/>
                             <property name="requireLogoutRequestSigned" value="true"/>
                             <property name="requireLogoutResponseSigned" value="false"/>
-                            <property name="idpDiscoveryEnabled" value="true"/>
+                            <property name="idpDiscoveryEnabled" value="false"/>
                             <property name="idpDiscoveryURL" value="${host.name}/sp/saml/discovery"/>
                             <property name="idpDiscoveryResponseURL" value="${host.name}/sp/saml/login?disco=true"/>
                             <property name="ecpEnabled" value="true" />

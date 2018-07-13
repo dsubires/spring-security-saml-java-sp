@@ -26,7 +26,7 @@
                                     </tr>
                                     <tr>
                                         <td><label for="password">Password:</label></td>
-                                        <td><input type='password' name='j_password' id="password" class="text" value="admin"/></td>
+                                        <td><input type='password' name='j_password' id="password" class="text" value=""/></td>
                                     </tr>
                                     <tr>
                                         <td></td>
